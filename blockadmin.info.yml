@@ -1,0 +1,6 @@
+name: Block admin pages
+description: 'Block admin pages like /admin and /user'
+type: module
+core: 8.x
+version: 0.1
+package: Administration

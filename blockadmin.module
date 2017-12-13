@@ -1,0 +1,19 @@
+<?php
+/**
+ * Implements hook_help().
+ *
+ * Displays help and module information.
+ *
+ * @param path
+ *   Which path of the site we're using to display help
+ * @param arg
+ *   Array that holds the current path as returned from arg() function
+ */
+
+function blockadmin_help($path, $arg) {
+  switch ($path) {
+    case "help.page.blockadmin":
+      return '' . t("This is module that take setting ") . '';
+      break;
+  }
+}
